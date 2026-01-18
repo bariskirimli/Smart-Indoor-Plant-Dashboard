@@ -3,7 +3,7 @@ import { getDatabase } from "firebase/database";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyADx2AvcjDOJNCPiUqxBcH-DMpsVe-kqNI",
+    apiKey: " enter API here ",
     authDomain: "smart-plant-monitor-3c171.firebaseapp.com",
     databaseURL: "https://smart-plant-monitor-3c171-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "smart-plant-monitor-3c171",
@@ -17,4 +17,5 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Sadece Veritabanını dışarı aktar (Analytics'i kaldırdık, hata riski bitti)
+
 export const database = getDatabase(app);
